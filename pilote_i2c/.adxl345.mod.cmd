@@ -1,0 +1,1 @@
+cmd_/home/coiti4/Documents/SETI/B4/project/pilote_i2c/adxl345.mod := { echo  /home/coiti4/Documents/SETI/B4/project/pilote_i2c/adxl345.o;  echo; } > /home/coiti4/Documents/SETI/B4/project/pilote_i2c/adxl345.mod

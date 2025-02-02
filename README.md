@@ -70,7 +70,7 @@ embedded-linux-project/
    ```sh
    ./qemu-system-arm -M vexpress-a9 -kernel zImage -dtb vexpress-v2p-ca9.dtb -nographic
 
-4. **Build and Load the ARM I2C Device Driver**
+4. **Build and Load the I2C Device Driver**
    ```sh
    cd pilote_i2c
    make
@@ -84,10 +84,10 @@ embedded-linux-project/
 
 ## Results
 
-Successfully compiled and booted Linux on an ARM Cortex-A9 platform.
-Developed a functional I2C device driver for the ADXL345 accelerometer.
-Implemented interrupt-driven data collection with an efficient FIFO buffer.
-Integrated concurrent access control mechanisms for multi-threaded execution.
+- Successfully compiled and booted Linux on an ARM Cortex-A9 platform.
+- Developed a functional I2C device driver for the ADXL345 accelerometer.
+- Implemented interrupt-driven data collection with an efficient FIFO buffer.
+- Integrated concurrent access control mechanisms for multi-threaded execution.
 
 ---
 

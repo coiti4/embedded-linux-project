@@ -33,7 +33,14 @@ A key aspect of this project is the **simulation of an ARM Cortex-A9 processor u
 ---
 
 ## Project Structure
-embedded-linux-project/ ├── initramfs_busybox/ # Initramfs with BusyBox for a minimal Linux root filesystem ├── initramfs_simple/ # Basic initramfs setup for QEMU booting ├── pilote_i2c/ # Source code for the ADXL345 I2C device driver ├── qemu-system-arm/ # QEMU binary and configuration files ├── .gitignore # Git ignore rules for unnecessary files └── README.md # Project documentation (this file)
+embedded-linux-project/
+├── 📁 initramfs_busybox/ # Initramfs with BusyBox (minimal Linux root filesystem)
+├── 📁 initramfs_simple/ # Basic initramfs setup for QEMU booting
+├── 📁 pilote_i2c/ # ADXL345 I2C device driver source code
+├── 📁 qemu-system-arm/ # QEMU binaries and configuration files
+├── 📄 .gitignore # Git exclusion rules
+└── 📄 README.md # Project documentation (you are here)
+
 ---
 
 ## Getting Started

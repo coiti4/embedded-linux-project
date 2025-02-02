@@ -33,6 +33,8 @@ A key aspect of this project is the **simulation of an ARM Cortex-A9 processor u
 ---
 
 ## Project Structure
+
+```
 embedded-linux-project/
 ├── 📁 initramfs_busybox/ # Initramfs with BusyBox (minimal Linux root filesystem)
 ├── 📁 initramfs_simple/ # Basic initramfs setup for QEMU booting
@@ -40,7 +42,7 @@ embedded-linux-project/
 ├── 📁 qemu-system-arm/ # QEMU binaries and configuration files
 ├── 📄 .gitignore # Git exclusion rules
 └── 📄 README.md # Project documentation (you are here)
-
+```
 ---
 
 ## Getting Started

@@ -85,17 +85,17 @@ Integrated concurrent access control mechanisms for multi-threaded execution.
 
 ## Future Improvements
 
-Enhance the driver with additional configuration options for power management.
-Implement DMA support for optimized data transfer.
-Expand user-space utilities to provide a more comprehensive interface.
+- Enhance the driver with additional configuration options for power management.
+- Implement DMA support for optimized data transfer.
+- Expand user-space utilities to provide a more comprehensive interface.
 
 ---
 
 ## Contributors
 
-Agustín Coitinho
-Arthur Ruback
-Irene Asensio
+- Agustín Coitinho
+- Arthur Ruback
+- Irene Asensio
   
 ## License
 

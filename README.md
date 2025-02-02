@@ -63,7 +63,6 @@ embedded-linux-project/
 
 2. **Compile the Linux Kernel for ARM**
    ```sh
-   cd kernel
    make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- zImage dtbs modules
 
 3. **Start QEMU with ARM Cortex-A9 Emulation**

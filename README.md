@@ -5,8 +5,6 @@ This repository contains the source code and documentation for an **Embedded Lin
 
 A key aspect of this project is the **simulation of an ARM Cortex-A9 processor using QEMU**, allowing the deployment and testing of **low-level Linux systems** and **custom kernel drivers** on an **embedded ARM architecture**.
 
----
-
 ## Key Features
 - **ARM Cortex-A9 Emulation & Linux Kernel Compilation**  
   - Compiled a **Linux 5.15.6 kernel** for an **ARMv7-A architecture**.  
@@ -30,8 +28,6 @@ A key aspect of this project is the **simulation of an ARM Cortex-A9 processor u
   - Implemented **thread synchronization mechanisms** for multi-process access.  
   - Used **spinlocks** to ensure safe concurrent access to shared resources.  
 
----
-
 ## Project Structure
 
 ```
@@ -43,7 +39,6 @@ embedded-linux-project/
 ├── 📄 .gitignore # Git exclusion rules
 └── 📄 README.md # Project documentation (you are here)
 ```
----
 
 ## Getting Started
 
@@ -79,8 +74,6 @@ embedded-linux-project/
    ```sh
    ./user_app/main
 
----
-
 ## Results
 
 - Successfully compiled and booted Linux on an ARM Cortex-A9 platform.
@@ -88,15 +81,11 @@ embedded-linux-project/
 - Implemented interrupt-driven data collection with an efficient FIFO buffer.
 - Integrated concurrent access control mechanisms for multi-threaded execution.
 
----
-
 ## Future Improvements
 
 - Enhance the driver with additional configuration options for power management.
 - Implement DMA support for optimized data transfer.
 - Expand user-space utilities to provide a more comprehensive interface.
-
----
 
 ## Contributors
 
@@ -106,4 +95,4 @@ embedded-linux-project/
   
 ## License
 
-This project is licensed under the MIT License – feel free to modify and use it as needed.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
